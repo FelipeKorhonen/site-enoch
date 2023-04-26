@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: #00060F;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #032333;
+    color: white;
+    border-top: 2px solid #032F33;
+}
+
+menu > ul > li > a:hover {
+    background-color: #032333;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+main {
+    max-width: 90vh;
+}
+
+main > article {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.76);
+   
+}

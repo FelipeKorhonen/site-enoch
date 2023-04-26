@@ -16,8 +16,10 @@ html, body {
     background-color: #00060F;
 }
 
-header, h1 {
+header > h1 {
     color: white;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 
 menu > ul{
@@ -36,12 +38,13 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: #032333;
+    color: black;
+    cursor: pointer;
 }
 
 
 main {
     max-width: 90vh;
-    background-color:;
 }
 
 main > article {
@@ -71,17 +74,24 @@ article {
 }
 
 article.intro {
-    margin: auto;
     padding: 10px;
-    background-image: url(../imagens/foto-ourives.jpg) ;
-    background-position: center center;
+    min-width: 70vw;
+}
+
+article > img {
+    width: 685px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+article > h1 {
+    font-size: 3em;
 }
 
 .intro > p {
     width: 75vw;
     font-size: 25px;
     font-family: 'Lilita One', cursive;
-    font-weight: bolder;
 }
 
 
@@ -94,6 +104,8 @@ article > p {
 
 div {
     text-align: center;
+    background-color: #00060fa2;
+    padding: 10px;
 }
 
 div > span {
@@ -109,4 +121,10 @@ iframe {
 footer {
     padding: 10px;
     background: #032F33;
+    text-align: center;
+}
+
+footer >p > a {
+    text-decoration: none;
+    
 }
