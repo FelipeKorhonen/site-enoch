@@ -4,10 +4,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+html, body {
+    background-color: #00060F;
+}
+
+header, h1 {
+    color: white;
 }
 
 menu > ul{
@@ -19,13 +29,13 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
+    background-color: #032333;
     color: white;
-    border-top: 2px solid gray;
+    border-top: 2px solid #032F33;
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: #032333;
 }
 
 
@@ -36,7 +46,7 @@ main {
 
 main > article {
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.76);
 }
 
 h1 {
@@ -53,37 +63,50 @@ h2 {
     text-align: center;
 }
 
-article.intro {
+article {
+    margin: auto;
     width: 90vw;
+    display: block;
+    text-align: justify;
+}
+
+article.intro {
     margin: auto;
     padding: 10px;
     background-image: url(../imagens/foto-ourives.jpg) ;
     background-position: center center;
 }
 
+.intro > p {
+    width: 75vw;
+    font-size: 25px;
+    font-family: 'Lilita One', cursive;
+    font-weight: bolder;
+}
+
+
 article > p {
-    width: 690px;
     padding: 10px;
     font-size: 1.3em;
     font-family: 'Domine', serif;
     text-align: left;
 }
 
-article.borda {
-    padding: 15px;
-    border: solid;
-    text-align: justify;
-}
-
 div {
-    
     text-align: center;
 }
 
+div > span {
+    background-color: #032f33b7;
+    font-size: 1.2em;
+}
+
 iframe {
-   box-shadow: 1px 1px 8px rgb(48, 185, 128);
+    border-radius: 5px;
+   box-shadow: 1px 1px 8px #032F33;
 }
 
 footer {
     padding: 10px;
+    background: #032F33;
 }
