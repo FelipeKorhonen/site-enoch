@@ -91,10 +91,9 @@ p {
     font-family: 'Domine', serif;
     text-align: justify;
 }
-
 article > img {
-    max-width: 80vw;
-    max-height: 80vh;
+    max-width: 90vw;
+    max-height: 90vh;
     padding: auto;
     margin: auto;
     border-radius: 10px;
@@ -119,7 +118,7 @@ div > span {
 
 
 iframe {
-    max-width: 85vw;
+    max-width: 95vw;
     max-height: 95vh;
     box-shadow: 1px 1px 8px #032F33;
 }
