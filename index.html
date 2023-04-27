@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <title>Enoch Joias</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Enoch Joias</h1>
         <span id="burguer"  class="material-icons" onclick="clickMenu()">menu</span>
         <menu id="itens">
             <ul>
-                <li><a href="#">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="Contato/contato.html">Contatos</a></li>
                 <li><a href="privacidade/privacidade.html">Politica de Privacidade</a></li>
@@ -23,13 +24,13 @@
         </menu>
     </header>
     <main>
-        <article class="intro">
+        <article>
             <h1>Bem Vindo !</h1>
             <img src="imagens/pexels-solodsha-8105052.jpg" alt="">
             <p>Como proprietário de uma loja de ourives, estou animado para apresentar-lhe um mundo de joias e peças de alta qualidade. Aqui, oferecemos uma ampla variedade de opções para satisfazer os gostos e necessidades de nossos clientes. Como ourives, nosso objetivo é criar peças únicas que celebrem momentos importantes na vida de nossos clientes, incluindo anéis de noivado, alianças de casamento, joias personalizadas e muito mais.</p>
             <p>Como loja de ourives, resolvemos problemas como a dificuldade em encontrar peças de qualidade e personalizadas em outros lugares. Com nossas habilidades e experiência, somos capazes de trabalhar com nossos clientes para criar peças exclusivas e personalizadas que atendam às suas especificações. Também oferecemos reparos de joias e manutenção, garantindo que as peças favoritas de nossos clientes durem por muitos anos.</p>
         </article>
-        <article class="borda">
+        <article>
             <h2>Sobre mim!</h2>
             <p>
                 Eu sou um ourives com mais de 23 anos de experiência na indústria de joias, trabalhando desde o ano 2000 até os dias atuais. Ao longo desses anos, desenvolvi habilidades em trabalhar com uma ampla variedade de metais preciosos, incluindo ouro, prata e platina, bem como com pedras preciosas, como diamantes, safiras, rubis e esmeraldas.
@@ -55,6 +56,13 @@
         <p>Criado por <a href="">Felipe Korhonen</a>, para Enoch Conserto de Joias.©</p>
     </footer>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 992) {
+                intens.style.display = 'block'
+            } else {
+                intens.style.display = 'none'
+            }
+        }
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'

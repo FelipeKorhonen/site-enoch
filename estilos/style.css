@@ -73,6 +73,7 @@ h1 {
     padding: 10px;
     font-family: 'Abril Fatface', cursive;
     font-size: 2em;
+    text-align: center;
 }
 
 h2 {
@@ -83,41 +84,24 @@ h2 {
     text-align: center;
 }
 
-article {
-    margin: auto;
-    width: 90vw;
-    display: block;
+p {
+    display: inline-block;
+    padding: 15px ;
+    font-size: 1.2em;
+    font-family: 'Domine', serif;
     text-align: justify;
-    
-}
-
-article.intro {
-    padding: 10px;
-    min-width: 70vw;
 }
 
 article > img {
-    max-width: 350px;
-    max-height: 360px;
+    max-width: 80vw;
+    max-height: 80vh;
+    padding: auto;
+    margin: auto;
     border-radius: 10px;
 }
 
 article > h1 {
     font-size: 3em;
-}
-
-.intro > p {
-    width: 75vw;
-    font-size: 25px;
-    font-family: 'Lilita One', cursive;
-}
-
-
-article > p {
-    padding: 10px;
-    font-size: 1.3em;
-    font-family: 'Domine', serif;
-    text-align: left;
 }
 
 div {
@@ -148,5 +132,4 @@ footer {
 
 footer >p > a {
     text-decoration: none;
-    
 }
