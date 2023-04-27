@@ -22,6 +22,24 @@ header > h1 {
     font-family: 'Abril Fatface', cursive;
 }
 
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    background-color: #032F33;
+    color: black;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+    
+}
+
 menu > ul{
     list-style-type: none;
 }
@@ -38,19 +56,18 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: #032333;
-    color: black;
-    cursor: pointer;
 }
 
 
 main {
     max-width: 90vh;
-}
-
-main > article {
+    margin: auto;
+    margin-top: 15px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
 }
+
 
 h1 {
     padding: 10px;
@@ -79,8 +96,8 @@ article.intro {
 }
 
 article > img {
-    width: 685px;
-    height: 430px;
+    max-width: 685px;
+    max-height: 430px;
     border-radius: 10px;
 }
 
@@ -105,6 +122,7 @@ article > p {
 div {
     text-align: center;
     background-color: #00060fa2;
+    background-position: center;
     padding: 10px;
 }
 
@@ -113,9 +131,11 @@ div > span {
     font-size: 1.2em;
 }
 
+
 iframe {
-    border-radius: 5px;
-   box-shadow: 1px 1px 8px #032F33;
+    max-width: 85vw;
+    max-height: 95vh;
+    box-shadow: 1px 1px 8px #032F33;
 }
 
 footer {
