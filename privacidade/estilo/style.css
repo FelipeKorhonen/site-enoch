@@ -21,6 +21,11 @@ main {
     padding-bottom: 30px;
 }
 
+h1 {
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+
 article {
     background: white;
     padding: 30px;
