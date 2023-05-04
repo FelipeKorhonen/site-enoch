@@ -56,7 +56,7 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: #032F33;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
