@@ -123,12 +123,17 @@ iframe {
     box-shadow: 1px 1px 8px #032F33;
 }
 
-footer {
-    padding: 10px;
+
+
+img.patrocinios {
+    width: 20%;
+}
+
+footer  {
     background: #032F33;
     text-align: center;
 }
 
-footer >p > a {
-    text-decoration: none;
+footer, a {
+    color: #00060F;
 }
